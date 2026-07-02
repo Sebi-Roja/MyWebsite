@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arduino Spy Museum — Gabriel Sebastian Rojano</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="titleblock">
+  <div class="tb-grid">
+    <div class="tb-cell">
+      <span class="tb-label">Drawn by</span>
+      <span class="tb-value">G. S. Rojano</span>
+    </div>
+    <nav class="tb-nav">
+      <a href="index.html">Home</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="tb-cell">
+      <span class="tb-label">Rev.</span>
+      <span class="tb-value">2026</span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="project-hero">
+    <div class="eyebrow-row">
+      <p class="eyebrow" style="margin:0;">Sheet 01 / 04</p>
+      <p class="eyebrow" style="margin:0;">Fall 2024</p>
+    </div>
+    <h1>Arduino Spy Museum</h1>
+    <p class="project-role">Northeastern University — General Engineering (ENGW 1111)</p>
+  </section>
+
+  <div class="spec-strip">
+    <div class="spec-cell">
+      <span class="tb-label">Role</span>
+      <span class="tb-value" style="font-size:15px;">Designer &amp; Builder</span>
+    </div>
+    <div class="spec-cell">
+      <span class="tb-label">Tools</span>
+      <span class="tb-value" style="font-size:15px;">C++, Arduino</span>
+    </div>
+    <div class="spec-cell">
+      <span class="tb-label">Kit</span>
+      <span class="tb-value" style="font-size:15px;">Sparkfun Inventor's Kit</span>
+    </div>
+    <div class="spec-cell">
+      <span class="tb-label">Format</span>
+      <span class="tb-value" style="font-size:15px;">Cardboard enclosure</span>
+    </div>
+  </div>
+
+  <figure class="photo-hero">
+    <img src="spy-hero.jpg" alt="Breadboard circuit with an LCD screen displaying 'Welcome! :)' next to an Arduino and blue LED exhibit lights">
+    <figcaption>The finished exhibit mid-demo — LCD greeting active, LED station lit.</figcaption>
+  </figure>
+
+  <div class="photo-row">
+    <figure>
+      <img src="spy-wide.jpg" alt="Full desk setup with laptop, Arduino, breadboards, and LED exhibit">
+      <figcaption>Full setup: code editor, Arduino, and the exhibit breadboard.</figcaption>
+    </figure>
+    <figure>
+      <img src="spy-buttons.jpg" alt="Close-up of a breadboard with push buttons, an LED, and a buzzer wired to an Arduino">
+      <figcaption>The button-and-buzzer station wiring.</figcaption>
+    </figure>
+  </div>
+
+  <div class="writeup-link-row">
+    <a href="https://docs.google.com/document/d/1_zA5MUv_s1PEwF4K6mUMCougHdmhsanZG95wxny8GTM/edit?usp=sharing" target="_blank" rel="noopener" class="btn">Read the full write-up ↗</a>
+  </div>
+
+  <div class="project-body">
+    <h2>Overview</h2>
+    <p>
+      For Northeastern's General Engineering course, I built a cardboard "spy museum" —
+      an interactive exhibit imagined as a display for a (fictional) National Espionage
+      Unit, using an Arduino to bring each station to life. Visitors were greeted by an
+      LCD screen before moving through a set of hands-on, sensor-triggered exhibits.
+    </p>
+
+    <h2>How it works</h2>
+    <p>
+      The enclosure housed a set of Sparkfun kit components, each mapped to a different
+      "exhibit" inside the box:
+    </p>
+    <ul>
+      <li>LEDs and push buttons for interactive, visitor-triggered displays</li>
+      <li>A photoresistor and flex sensor to detect movement and touch</li>
+      <li>A thermal sensor for a temperature-reactive exhibit</li>
+      <li>An LCD screen and speaker to greet and narrate each station</li>
+    </ul>
+    <p>
+      All of it was driven by C++ Arduino code I wrote to sequence the sensors and outputs
+      together into one coherent experience rather than a set of disconnected demos.
+    </p>
+
+    <h2>Presenting it</h2>
+    <p>
+      I presented the finished museum to the class and walked classmates through each
+      station, encouraging them to interact with the sensors themselves — which ended up
+      being one of the more useful parts of the project, since watching people use it
+      unprompted surfaced a few wiring quirks I hadn't caught during testing.
+    </p>
+  </div>
+
+  <div class="project-nav-links">
+    <a href="projects.html" class="btn-outline btn">← All projects</a>
+    <a href="project-halloween.html" class="btn">Next: Halloween Light Show →</a>
+  </div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>© 2026 Gabriel Sebastian Rojano</p>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/sebastian-rojano" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
