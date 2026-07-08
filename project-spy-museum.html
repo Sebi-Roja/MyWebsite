@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arduino Spy Museum — Gabriel Sebastian Rojano</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="titleblock">
+  <div class="tb-grid">
+    <div class="tb-cell">
+      <span class="tb-label">Drawn by</span>
+      <span class="tb-value">G. S. Rojano</span>
+    </div>
+    <nav class="tb-nav">
+      <a href="index.html">Home</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="tb-cell">
+      <span class="tb-label">Rev.</span>
+      <span class="tb-value">2026</span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="project-hero">
+    <div class="eyebrow-row">
+      <p class="eyebrow" style="margin:0;">Sheet 01 / 04</p>
+      <p class="eyebrow" style="margin:0;">Fall 2024</p>
+    </div>
+    <h1>Arduino Spy Museum</h1>
+    <p class="project-role">Northeastern University — General Engineering (GE 1111), with Cecilia Kye</p>
+  </section>
+
+  <div class="spec-strip">
+    <div class="spec-cell">
+      <span class="tb-label">Role</span>
+      <span class="tb-value" style="font-size:15px;">Designer &amp; Builder</span>
+    </div>
+    <div class="spec-cell">
+      <span class="tb-label">Tools</span>
+      <span class="tb-value" style="font-size:15px;">C++, Arduino</span>
+    </div>
+    <div class="spec-cell">
+      <span class="tb-label">Kit</span>
+      <span class="tb-value" style="font-size:15px;">Sparkfun Inventor's Kit</span>
+    </div>
+    <div class="spec-cell">
+      <span class="tb-label">Format</span>
+      <span class="tb-value" style="font-size:15px;">Cardboard enclosure</span>
+    </div>
+  </div>
+
+  <figure class="photo-hero">
+    <img src="spy-hero.jpg" alt="Breadboard circuit with an LCD screen displaying 'Welcome! :)' next to an Arduino and blue LED exhibit lights">
+    <figcaption>The finished exhibit mid-demo — LCD greeting active, LED station lit.</figcaption>
+  </figure>
+
+  <div class="photo-row">
+    <figure>
+      <img src="spy-wide.jpg" alt="Full desk setup with laptop, Arduino, breadboards, and LED exhibit">
+      <figcaption>Finally finishing integrating the last circuit component with the Spy Museum welcome screen! Uploading the code to the arduino.</figcaption>
+    </figure>
+    <figure>
+      <img src="spy-buttons.jpg" alt="Close-up of a breadboard with push buttons, an LED, and a buzzer wired to an Arduino">
+      <figcaption>In progress photo of alarm wiring.</figcaption>
+    </figure>
+  </div>
+
+  <div class="photo-row">
+    <figure>
+      <img src="spy-front.jpg" alt="Finished cardboard exhibit labeled National Espionage Unit Headquarters with an LCD welcome screen and blue LED lighting">
+      <figcaption>Final product front side.</figcaption>
+    </figure>
+    <figure>
+      <img src="spy-back.jpg" alt="Back of the cardboard exhibit showing the breadboard, flex sensor, and wiring behind a Top Secret label">
+      <figcaption>Final product backside.</figcaption>
+    </figure>
+  </div>
+
+  <figure class="photo-hero">
+    <img src="spy-flowchart.jpg" alt="Flowchart of the Arduino control logic for the Spy Museum exhibit, from initialization through the security, power, emergency, and fire alarm checks">
+    <figcaption>Flowchart.</figcaption>
+  </figure>
+
+  <div class="writeup-link-row">
+    <a href="https://docs.google.com/document/d/1_zA5MUv_s1PEwF4K6mUMCougHdmhsanZG95wxny8GTM/edit?usp=sharing" target="_blank" rel="noopener" class="btn">Read the full write-up ↗</a>
+  </div>
+
+  <div class="project-body">
+    <h2>Overview</h2>
+    <p>
+      For my General Engineering course, from a selection of project options, my partner and I
+      chose to build a cardboard "spy museum." The result was an interactive playground of many
+      different Arduino components, all coming together to form a display for the "National
+      Espionage Unit." The project integrated Arduino code and components to create a scale
+      model, utilizing LEDs, push buttons, photoresistors, a flex sensor, thermal sensor, LCD
+      screen, and a speaker to simulate real devices in an environment.
+    </p>
+
+    <h2>How it works</h2>
+    <p>
+      The spy museum enclosure housed a set of Sparkfun kit components to simulate real life
+      devices that may be used in such a setting: LEDs for both lighting and alarms; push
+      buttons to turn on devices and trigger alarms; photoresistors to trigger back up lights in
+      the event of a power outage; a flex sensor to see if a door that was supposed to be closed
+      off to the public had been opened; a thermal sensor to measure the heat in the museum in
+      the event of a fire, an LCD screen to welcome visitors and display messages; and a speaker
+      to mimic an alarm.
+    </p>
+    <p>
+      All of this was driven by C++ Arduino code my partner and I wrote to sequence the sensors
+      and outputs together into one coherent experience.
+    </p>
+
+    <h2>Presenting it</h2>
+    <p>
+      We presented the finished museum to our class and professor, before later walking
+      individual classmates through each station, and encouraging them to interact with the
+      sensors themselves.
+    </p>
+  </div>
+
+  <div class="project-nav-links">
+    <a href="projects.html" class="btn-outline btn">← All projects</a>
+    <a href="project-halloween.html" class="btn">Next: Halloween Light Show →</a>
+  </div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/sebastian-rojano" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
